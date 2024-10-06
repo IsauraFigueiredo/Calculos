@@ -9,12 +9,18 @@ namespace Calculos
 /// Implementa operações artméticas
 /// </summary>
     class Aritmetica
-    {
+    {/// <summary>
+    /// Operação soma
+    /// </summary>
+   /// <returns>Retorna a soma de dois numeros</returns>
         public int Somar(int x, int y)
         {
             return x + y;
         }
-
+        /// <summary>
+        /// Operação subtrair
+        /// </summary>
+        /// <returns>Retorna o resultado da subtração de dois numeros</returns>
         public int Subtrair(int x, int y)
         {
             return x - y;
